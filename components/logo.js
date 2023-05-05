@@ -19,20 +19,20 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+    const bigztarImg = `/images/bigztar${useColorModeValue('', '-dark')}.png`
 
     return (
         <Link href="/">
             {/* <a> */}
                 <LogoBox>
-                    <Image src={footPrintImg} width={50} height={50} alt="logo"/>
+                    <Image src={bigztarImg} width={50} height={50} alt="logo"/>
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                        fontFamily='M PLUS Rounded 1c'
+                        fontFamily='Ubuntu'
                         fontWeight='bold'
                         ml={3}
                     >
-                        Bigztar Enterprise
+                        bigztar Enterprise
                     </Text>
                 </LogoBox>
             {/* </a> */}
